@@ -1,0 +1,2136 @@
+
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#111111">
+
+<title>Parijaat Society | Premium Homes in Ambegaon, Pune</title>
+
+<meta name="description" content="Discover Parijaat Society, Ambegaon, Pune. Explore 1 BHK and 2 BHK homes, amenities, floor plans and book a site visit.">
+
+<style>
+:root {
+  --black: #11110f;
+  --dark: #1b1a17;
+  --gold: #c6a15b;
+  --gold-light: #e6d2a0;
+  --cream: #f8f6f0;
+  --white: #fff;
+  --text: #24231f;
+  --muted: #77736b;
+  --border: #e7e0d2;
+  --green: #19734a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  font-family: "Noto Sans Devanagari", "Nirmala UI",
+               "Mangal", Arial, sans-serif;
+  color: var(--text);
+  background: var(--white);
+  line-height: 1.8;
+}
+
+img, video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+button, a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+  width: min(1160px, 92%);
+  margin: auto;
+}
+
+.section {
+  padding: 82px 0;
+}
+
+.section-cream {
+  background: var(--cream);
+}
+
+.section-dark {
+  background: var(--black);
+  color: var(--white);
+}
+
+.gold {
+  color: var(--gold);
+}
+
+.eyebrow {
+  color: var(--gold);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.section-heading {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-family: Georgia, "Noto Sans Devanagari", serif;
+  font-size: clamp(29px, 4vw, 43px);
+  line-height: 1.35;
+  margin-bottom: 14px;
+}
+
+.section-heading p {
+  color: var(--muted);
+}
+
+.section-dark .section-heading p {
+  color: #c7c3ba;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 47px;
+  padding: 11px 20px;
+  border: 1px solid var(--gold);
+  background: var(--gold);
+  color: #111;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.btn:hover {
+  background: var(--gold-light);
+  border-color: var(--gold-light);
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background: transparent;
+  color: white;
+  border-color: rgba(255,255,255,.7);
+}
+
+.btn-dark {
+  background: var(--black);
+  border-color: var(--black);
+  color: white;
+}
+
+.btn-green {
+  background: var(--green);
+  border-color: var(--green);
+  color: white;
+}
+
+/* HEADER */
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(17,17,15,.97);
+  color: white;
+  border-bottom: 1px solid #4b402a;
+  backdrop-filter: blur(12px);
+}
+
+.navbar {
+  min-height: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+}
+
+.brand {
+  font-family: Georgia, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.brand small {
+  display: block;
+  color: var(--gold);
+  font-family: Arial, sans-serif;
+  font-size: 9px;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  font-size: 12px;
+}
+
+.nav-links a:not(.btn):hover {
+  color: var(--gold);
+}
+
+.menu-toggle {
+  display: none;
+  color: white;
+  background: transparent;
+  border: 1px solid #65583d;
+  padding: 7px 10px;
+  cursor: pointer;
+}
+
+/* HERO */
+
+.hero {
+  min-height: 690px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(8,8,7,.92) 0%,
+    rgba(8,8,7,.73) 48%, rgba(8,8,7,.22) 100%),
+    url("images/building-exterior.jpg") center/cover no-repeat,
+    #24231e;
+}
+
+.hero-content {
+  width: min(760px, 100%);
+  padding: 100px 0;
+}
+
+.hero-label {
+  display: inline-block;
+  border: 1px solid rgba(198,161,91,.7);
+  color: var(--gold-light);
+  padding: 6px 12px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-family: Georgia, "Noto Sans Devanagari", serif;
+  font-size: clamp(39px, 6vw, 70px);
+  line-height: 1.17;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  display: block;
+  color: var(--gold-light);
+  font-size: .73em;
+  margin-top: 12px;
+}
+
+.hero p {
+  color: #e7e4dc;
+  max-width: 620px;
+  font-size: 16px;
+  margin-bottom: 28px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-location {
+  margin-top: 27px;
+  color: #e0dcd2;
+  font-size: 13px;
+}
+
+/* HIGHLIGHTS */
+
+.highlights {
+  background: var(--black);
+  color: white;
+  border-top: 1px solid #443b2a;
+}
+
+.highlight-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.highlight {
+  padding: 27px 15px;
+  text-align: center;
+  border-right: 1px solid #393832;
+}
+
+.highlight:last-child {
+  border-right: 0;
+}
+
+.highlight strong {
+  display: block;
+  color: var(--gold-light);
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.highlight span {
+  display: block;
+  color: #d2cec4;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* INTRODUCTION */
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+
+.image-frame {
+  position: relative;
+  background: #e6e0d4;
+  overflow: hidden;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.image-frame:hover img {
+  transform: scale(1.025);
+}
+
+.intro-copy h2 {
+  font-family: Georgia, "Noto Sans Devanagari", serif;
+  font-size: clamp(30px, 4vw, 43px);
+  line-height: 1.35;
+  margin-bottom: 18px;
+}
+
+.intro-copy p {
+  color: var(--muted);
+  margin-bottom: 15px;
+}
+
+.check-list {
+  list-style: none;
+  margin: 22px 0;
+}
+
+.check-list li {
+  padding: 6px 0;
+}
+
+.check-list li::before {
+  content: "✦";
+  color: var(--gold);
+  margin-right: 10px;
+}
+
+/* PRICING */
+
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  max-width: 940px;
+  margin: auto;
+}
+
+.price-card {
+  background: white;
+  padding: 34px;
+  border: 1px solid var(--border);
+  position: relative;
+  box-shadow: 0 10px 35px rgba(0,0,0,.04);
+}
+
+.price-card.featured {
+  border-top: 4px solid var(--gold);
+}
+
+.price-card h3 {
+  font-size: 25px;
+}
+
+.price-card .price {
+  font-family: Georgia, serif;
+  font-size: clamp(29px, 4vw, 38px);
+  font-weight: bold;
+  margin: 13px 0 3px;
+}
+
+.price-card .area {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.price-card ul {
+  list-style: none;
+  margin: 22px 0;
+}
+
+.price-card li {
+  padding: 7px 0;
+  border-bottom: 1px solid #eee9df;
+}
+
+.price-card li::before {
+  content: "✓";
+  color: #a7833e;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.note {
+  text-align: center;
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 24px;
+}
+
+/* GALLERY */
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 17px;
+}
+
+.gallery-card {
+  border: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: #e5e0d5;
+  aspect-ratio: 4 / 3;
+  cursor: pointer;
+  text-align: left;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .4s;
+}
+
+.gallery-card:hover img {
+  transform: scale(1.07);
+}
+
+.gallery-caption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 38px 16px 14px;
+  background: linear-gradient(transparent, rgba(0,0,0,.82));
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* VIDEOS */
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.video-card {
+  border: 1px solid #37342d;
+  background: #1b1a17;
+}
+
+.video-card video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #080808;
+}
+
+.video-copy {
+  padding: 18px;
+}
+
+.video-copy h3 {
+  color: var(--gold-light);
+  margin-bottom: 7px;
+  font-size: 18px;
+}
+
+.video-copy p {
+  color: #c8c4bb;
+  font-size: 13px;
+}
+
+/* AMENITIES */
+
+.amenities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+
+.amenity-card {
+  background: white;
+  border: 1px solid var(--border);
+  padding: 23px 15px;
+  transition: .2s;
+}
+
+.amenity-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-3px);
+}
+
+.amenity-icon {
+  font-size: 29px;
+  margin-bottom: 9px;
+}
+
+.amenity-card h3 {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 7px;
+}
+
+.amenity-card p {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* SPECIFICATIONS */
+
+.spec-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.spec-card {
+  background: #1a1916;
+  border: 1px solid #3b372e;
+  padding: 24px;
+}
+
+.spec-card h3 {
+  color: var(--gold-light);
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.spec-card ul {
+  list-style: none;
+  color: #d7d3ca;
+  font-size: 13px;
+}
+
+.spec-card li {
+  padding: 6px 0;
+  border-bottom: 1px solid #34312a;
+}
+
+/* FLOOR PLANS */
+
+.plan-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.plan-card {
+  background: white;
+  border: 1px solid var(--border);
+  padding: 20px;
+}
+
+.plan-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: contain;
+  background: #f3f1eb;
+  margin-bottom: 17px;
+}
+
+.plan-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.plan-card p {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/* LOCATION */
+
+.location-grid {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 28px;
+  align-items: stretch;
+}
+
+.location-info {
+  padding: 28px;
+  background: white;
+  border: 1px solid var(--border);
+}
+
+.location-info h3 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.location-info p {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee9df;
+}
+
+.location-info .small {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 15px;
+  border: 0;
+}
+
+.location-map {
+  width: 100%;
+  min-height: 370px;
+  border: 0;
+  background: #e8e5dc;
+}
+
+.connectivity-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.connectivity {
+  padding: 16px;
+  background: white;
+  border: 1px solid var(--border);
+}
+
+.connectivity strong {
+  display: block;
+  color: #8d6d30;
+  font-size: 14px;
+}
+
+.connectivity span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+/* FAQ */
+
+.faq-list {
+  max-width: 850px;
+  margin: auto;
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--border);
+}
+
+.faq-item summary {
+  padding: 19px 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq-item summary::marker {
+  color: var(--gold);
+}
+
+.faq-item p {
+  color: var(--muted);
+  padding: 0 4px 18px;
+}
+
+/* CONTACT */
+
+.contact-section {
+  color: white;
+  text-align: center;
+  background:
+    linear-gradient(115deg, rgba(10,10,9,.96), rgba(30,26,19,.94)),
+    url("images/building-exterior.jpg") center/cover;
+}
+
+.contact-section h2 {
+  font-family: Georgia, "Noto Sans Devanagari", serif;
+  font-size: clamp(30px, 4vw, 46px);
+  line-height: 1.4;
+}
+
+.contact-section p {
+  max-width: 700px;
+  color: #d5d1c8;
+  margin: 18px auto 27px;
+}
+
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ENQUIRY FORM */
+
+.enquiry-form {
+  max-width: 680px;
+  margin: 35px auto 0;
+  padding: 25px;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(198,161,91,.4);
+  text-align: left;
+}
+
+.enquiry-form h3 {
+  margin-bottom: 15px;
+  color: var(--gold-light);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.form-field input,
+.form-field textarea,
+.form-field select {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #d9d2c5;
+  padding: 12px;
+  border-radius: 2px;
+  color: #111;
+}
+
+.form-field.full {
+  grid-column: 1 / -1;
+}
+
+.form-field textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.form-note {
+  color: #d0ccc3;
+  font-size: 11px;
+  margin-top: 12px;
+}
+
+/* FOOTER */
+
+footer {
+  background: #090908;
+  color: #c9c5bc;
+  padding: 38px 0 90px;
+  font-size: 13px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr;
+  gap: 25px;
+}
+
+footer h3 {
+  color: var(--gold);
+  margin-bottom: 12px;
+}
+
+footer a {
+  display: block;
+  margin-bottom: 6px;
+}
+
+footer a:hover {
+  color: var(--gold-light);
+}
+
+.disclaimer {
+  border-top: 1px solid #34322c;
+  margin-top: 28px;
+  padding-top: 18px;
+  color: #9d998f;
+  font-size: 11px;
+}
+
+/* MOBILE CONTACT BAR */
+
+.mobile-bar {
+  display: none;
+}
+
+/* IMAGE LIGHTBOX */
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  inset: 0;
+  padding: 20px;
+  background: rgba(0,0,0,.95);
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 95%;
+  max-height: 88vh;
+  object-fit: contain;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 12px;
+  right: 22px;
+  color: white;
+  font-size: 40px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1050px) {
+  .nav-links {
+    gap: 10px;
+    font-size: 11px;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .video-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 800px) {
+  .section {
+    padding: 58px 0;
+  }
+
+  .navbar {
+    min-height: 70px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 70px;
+    background: #11110f;
+    padding: 14px 5% 20px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    font-size: 14px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a:not(.btn) {
+    padding: 9px 0;
+    border-bottom: 1px solid #302e28;
+  }
+
+  .nav-links .btn {
+    margin-top: 13px;
+  }
+
+  .hero {
+    min-height: 590px;
+    background-position: 62% center;
+  }
+
+  .hero-content {
+    padding: 72px 0;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .highlight-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .highlight:nth-child(2) {
+    border-right: 0;
+  }
+
+  .highlight:nth-child(-n+2) {
+    border-bottom: 1px solid #393832;
+  }
+
+  .intro-grid,
+  .price-grid,
+  .plan-grid,
+  .location-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-grid {
+    gap: 28px;
+  }
+
+  .image-frame img {
+    height: 330px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .amenities-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .spec-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .plan-card img {
+    height: 280px;
+  }
+
+  .location-map {
+    min-height: 320px;
+  }
+
+  .connectivity-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 23px;
+  }
+
+  .mobile-bar {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+    z-index: 1500;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    padding: 6px;
+  }
+
+  .mobile-bar a {
+    padding: 11px 3px;
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+    background: #24231f;
+  }
+
+  .mobile-bar a:first-child {
+    background: var(--green);
+  }
+
+  .mobile-bar a:last-child {
+    background: var(--gold);
+    color: #111;
+  }
+}
+
+@media (max-width: 450px) {
+  .brand {
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    font-size: 39px;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .spec-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .connectivity-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-field.full {
+    grid-column: auto;
+  }
+
+  .price-card {
+    padding: 24px;
+  }
+
+  .enquiry-form {
+    padding: 17px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container navbar">
+
+    <a href="#home" class="brand">
+      PARIJAAT
+      <small>THE HOMELY PARADISE</small>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-expanded="false" aria-label="Open menu">
+      ☰ MENU
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#floorplans">Floor Plans</a>
+      <a href="#location">Location</a>
+      <a href="#contact" class="btn">Book Site Visit</a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-content">
+
+      <div class="hero-label">1 & 2 BHK HOMES • AMBEGAON, PUNE</div>
+
+      <h1>
+        The Art of<br>Better Living
+        <span>तुमच्या स्वप्नातील घर!</span>
+      </h1>
+
+      <p>
+        Welcome to Parijaat Society — a place designed around
+        comfort, family and a better everyday lifestyle.
+
+        <br><br>
+
+        तुमच्या कुटुंबासाठी सुंदर घर, आधुनिक सुविधा आणि
+        सोयीस्कर लोकेशनचा अनुभव घ्या. आपल्या घराची निवड
+        करण्यासाठी आजच प्रकल्पाला भेट द्या.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#pricing" class="btn">Explore Homes</a>
+        <a href="#contact" class="btn btn-outline">Book a Site Visit</a>
+      </div>
+
+      <div class="hero-location">
+        📍 Ambegaon, Pune, Maharashtra
+        <br>
+        RERA No. P52100053801 — कृपया अधिकृत नोंदणी तपासा.
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- KEY DETAILS -->
+<section class="highlights">
+  <div class="container highlight-grid">
+
+    <div class="highlight">
+      <strong>1 BHK</strong>
+      <span>₹44 Lakh* पासून</span>
+    </div>
+
+    <div class="highlight">
+      <strong>2 BHK</strong>
+      <span>₹58–65 Lakh*</span>
+    </div>
+
+    <div class="highlight">
+      <strong>Modern Amenities</strong>
+      <span>आधुनिक सुविधा</span>
+    </div>
+
+    <div class="highlight">
+      <strong>Ambegaon, Pune</strong>
+      <span>आंबेगाव, पुणे</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container intro-grid">
+
+    <div class="image-frame">
+      <!-- BROCHURE IMAGE: building-exterior.jpg -->
+      <img src="socity.png"
+           alt="Parijaat Society building design"
+           loading="lazy">
+    </div>
+
+    <div class="intro-copy">
+      <div class="eyebrow">WELCOME TO PARIJAAT</div>
+
+      <h2>
+        A Home Made for<br>
+        <span class="gold">Your Happy Moments</span>
+      </h2>
+
+      <p>
+        Parijaat Society, Ambegaon येथे 1 BHK आणि 2 BHK
+        घरांचे पर्याय उपलब्ध आहेत. तुमच्या कुटुंबाच्या
+        गरजा, आराम आणि दैनंदिन जीवनाचा विचार करून
+        प्रकल्पाची माहिती येथे सादर केली आहे.
+      </p>
+
+      <p>
+        बिल्डिंगचे डिझाइन, फ्लॅटचे पर्याय, सुविधा आणि
+        लोकेशनची माहिती एकाच ठिकाणी पाहा. अधिक माहितीसाठी
+        किंवा प्रत्यक्ष फ्लॅट पाहण्यासाठी आमच्याशी संपर्क करा.
+      </p>
+
+      <ul class="check-list">
+        <li>1 BHK & 2 BHK Apartment Options</li>
+        <li>Covered Parking — उपलब्धता तपासा</li>
+        <li>Club House, Gym & Landscaped Garden</li>
+        <li>Children's Play Area & Jogging Track</li>
+        <li>Site Visit by Appointment</li>
+      </ul>
+
+      <a href="#gallery" class="btn btn-dark">Explore the Project</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- PRICING -->
+<section class="section section-cream" id="pricing">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">YOUR HOME, YOUR CHOICE</div>
+      <h2>Find Your <span class="gold">Perfect Home</span></h2>
+      <p>
+        तुमच्या बजेटनुसार घराचा पर्याय निवडा.
+        अंतिम किंमत आणि उपलब्धता विक्री टीमकडून निश्चित करा.
+      </p>
+    </div>
+
+    <div class="price-grid">
+
+      <article class="price-card">
+        <div class="eyebrow">SMART & COMFORTABLE</div>
+        <h3>1 BHK Apartment</h3>
+        <div class="price">₹44 Lakh*</div>
+
+        <p class="area">
+          Carpet Area: 494 sq.ft. — आधी दिलेल्या माहितीनुसार
+        </p>
+
+        <ul>
+          <li>Comfortable Living Space</li>
+          <li>Modern Kitchen & Bathroom Fittings</li>
+          <li>Building Amenities</li>
+          <li>Parking Details on Enquiry</li>
+        </ul>
+
+        <a class="btn btn-dark" href="#contact"
+           data-flat="1 BHK">
+          Enquire for 1 BHK
+        </a>
+      </article>
+
+      <article class="price-card featured">
+        <div class="eyebrow">SPACE FOR THE FAMILY</div>
+        <h3>2 BHK Apartment</h3>
+        <div class="price">₹58–65 Lakh*</div>
+
+        <p class="area">
+          Carpet Area: 674–730 sq.ft. — आधी दिलेल्या माहितीनुसार
+        </p>
+
+        <ul>
+          <li>Spacious Family Living</li>
+          <li>Modern Kitchen & Bathroom Fittings</li>
+          <li>Building Amenities</li>
+          <li>Parking Details on Enquiry</li>
+        </ul>
+
+        <a class="btn" href="#contact" data-flat="2 BHK">
+          Enquire for 2 BHK
+        </a>
+      </article>
+
+    </div>
+
+    <p class="note">
+      *किंमत ही आधी दिलेल्या माहितीनुसार आहे.
+      फ्लॅटचा प्रकार, अचूक कार्पेट एरिया, लागू शुल्क आणि
+      उपलब्धता अधिकृत विक्री टीमकडून निश्चित करून घ्या.
+    </p>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">VISUAL EXPERIENCE</div>
+      <h2>Explore the <span class="gold">Gallery</span></h2>
+      <p>
+        प्रकल्पाचे 3D Views, फ्लॅटचे इंटेरियर आणि इतर फोटो पाहा.
+      </p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <button class="gallery-card"
+              data-full="images/building-exterior.jpg">
+        <img src="socity.png"
+             alt="Building exterior" loading="lazy">
+        <span class="gallery-caption">Building Exterior</span>
+      </button>
+
+      <button class="gallery-card"
+              data-full="images/building-night.jpg">
+        <img src="nightview.png"
+             alt="Building night view" loading="lazy">
+        <span class="gallery-caption">Evening Elevation</span>
+      </button>
+
+      <button class="gallery-card"
+              data-full="images/clubhouse.jpg">
+        <img src="gym.png"
+             alt="Clubhouse design" loading="lazy">
+        <span class="gallery-caption">Gym, Club House</span>
+      </button>
+
+      <button class="gallery-card"
+              data-full="images/living-room.jpg">
+        <img src="living.png"
+             alt="Living room interior" loading="lazy">
+        <span class="gallery-caption">Living Room</span>
+      </button>
+
+      <button class="gallery-card"
+              data-full="images/1bhk-view.jpg">
+        <img src="1bhk.png"
+             alt="1 BHK apartment 3D view" loading="lazy">
+        <span class="gallery-caption">1 BHK Apartment</span>
+      </button>
+
+      <button class="gallery-card"
+              data-full="images/2bhk-view.jpg">
+        <img src="2bhk.png"
+             alt="2 BHK apartment 3D view" loading="lazy">
+        <span class="gallery-caption">2 BHK Apartment</span>
+      </button>
+
+    </div>
+
+    <p class="note">
+       .
+    </p>
+
+  </div>
+</section>
+
+<!-- VIDEOS -->
+<section class="section section-dark" id="videos">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">WATCH BEFORE YOU VISIT</div>
+      <h2>Project <span class="gold">Videos</span></h2>
+      <p>
+         .
+      </p>
+    </div>
+
+    <div class="video-grid">
+
+      <article class="video-card">
+        <video controls playsinline preload="metadata"
+               poster="images/building-exterior.jpg">
+          <source src="road.mp4" type="video/mp4">
+          तुमचा ब्राउझर हा व्हिडिओ चालवू शकत नाही.
+        </video>
+        <div class="video-copy">
+          <h3>Building Tour</h3>
+          <p> </p>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <video controls playsinline preload="metadata"
+               poster="images/living-room.jpg">
+          <source src="flatdemo.mp4" type="video/mp4">
+          तुमचा ब्राउझर हा व्हिडिओ चालवू शकत नाही.
+        </video>
+        <div class="video-copy">
+          <h3>Flat Walkthrough</h3>
+          <p> </p>
+        </div>
+      </article>
+
+      <article class="video-card">
+        <video controls playsinline preload="metadata"
+               poster="images/clubhouse.jpg">
+          <source src="fullinfo.mp4" type="video/mp4">
+          तुमचा ब्राउझर हा व्हिडिओ चालवू शकत नाही.
+        </video>
+        <div class="video-copy">
+          <h3>Amenities Tour</h3>
+          <p>  </p>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- AMENITIES FROM BROCHURE -->
+<section class="section section-cream" id="amenities">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">PROPOSED AMENITIES</div>
+      <h2>More Than a Home</h2>
+      <p>
+        आराम, मनोरंजन, सुरक्षितता आणि पर्यावरणपूरक सुविधांचा विचार.
+        Brochure मध्ये नमूद केलेल्या Proposed Amenities खाली दिल्या आहेत.
+      </p>
+    </div>
+
+    <div class="amenities-grid">
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🏢</div>
+        <h3>Club House</h3>
+        <p>Multi-purpose Hall / बहुउद्देशीय हॉल</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🎭</div>
+        <h3>Open Stage</h3>
+        <p>कार्यक्रम आणि सेलिब्रेशनसाठी</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🏃</div>
+        <h3>Jogging Track</h3>
+        <p>चालण्यासाठी आणि व्यायामासाठी</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🏋️</div>
+        <h3>Well-Equipped Gym</h3>
+        <p>फिटनेससाठी व्यायामशाळा</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🪑</div>
+        <h3>Senior Citizen Plaza</h3>
+        <p>ज्येष्ठ नागरिकांसाठी विरंगुळ्याची जागा</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🎉</div>
+        <h3>Party Lawn</h3>
+        <p>समारंभ आणि कार्यक्रमांसाठी</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🧒</div>
+        <h3>Children's Play Area</h3>
+        <p>लहान मुलांसाठी खेळण्याची जागा</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🎯</div>
+        <h3>Indoor Games</h3>
+        <p>इनडोअर गेम्ससाठी सुविधा</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🌳</div>
+        <h3>Landscaped Garden</h3>
+        <p>हिरवळ आणि निसर्गरम्य वातावरण</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">📹</div>
+        <h3>24-Hour CCTV</h3>
+        <p>Brochure नुसार CCTV surveillance</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">🔥</div>
+        <h3>Fire-Fighting System</h3>
+        <p>अग्निसुरक्षा व्यवस्था</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">📞</div>
+        <h3>Intercom Facility</h3>
+        <p>कॅम्पसमधील इंटरकॉम सुविधा</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">💧</div>
+        <h3>Rainwater Harvesting</h3>
+        <p>पावसाचे पाणी साठवण्याची व्यवस्था</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">☀️</div>
+        <h3>Solar Water System</h3>
+        <p>सोलर वॉटर सिस्टीम</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">♻️</div>
+        <h3>Sewage Treatment Plant</h3>
+        <p>सांडपाणी प्रक्रिया व्यवस्था</p>
+      </article>
+
+      <article class="amenity-card">
+        <div class="amenity-icon">📶</div>
+        <h3>Wi-Fi Zone</h3>
+        <p>Broadband connectivity provision</p>
+      </article>
+
+    </div>
+
+    <p class="note">
+       
+
+  </div>
+</section>
+
+<!-- SPECIFICATIONS -->
+<section class="section section-dark" id="specifications">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">A MASTERPIECE SCULPTED</div>
+      <h2>Specifications & <span class="gold">Finishes</span></h2>
+      <p> 
+      </p>
+    </div>
+
+    <div class="spec-grid">
+
+      <article class="spec-card">
+        <h3>Structure & Flooring</h3>
+        <ul>
+          <li>Earthquake-resistant frame structure</li>
+          <li>2 × 2 vitrified flooring tiles</li>
+          <li>Anti-skid flooring in attached terraces</li>
+          <li>External sand-faced finished plaster</li>
+          <li>Internal Neeru finished plaster</li>
+        </ul>
+      </article>
+
+      <article class="spec-card">
+        <h3>Kitchen & Electrical</h3>
+        <ul>
+          <li>Granite platform with stainless steel sink</li>
+          <li>Concealed plumbing</li>
+          <li>Copper electrical wiring</li>
+          <li>Kitchen exhaust fan provision</li>
+          <li>Water purifier provision in kitchen</li>
+          <li>Washing machine provision in dry area</li>
+        </ul>
+      </article>
+
+      <article class="spec-card">
+        <h3>Doors & Windows</h3>
+        <ul>
+          <li>Laminated main and internal doors</li>
+          <li>French doors with safety grills</li>
+          <li>Powder-coated aluminium windows</li>
+          <li>Safety grills</li>
+          <li>Aluminium louvers in toilets</li>
+        </ul>
+      </article>
+
+      <article class="spec-card">
+        <h3>Bathroom & Plumbing</h3>
+        <ul>
+          <li>Designer bathroom tiles</li>
+          <li>Jaguar or equivalent bathroom fittings</li>
+          <li>Hindware / Cera / Euro / RAK equivalent sanitaryware</li>
+          <li>Concealed plumbing</li>
+          <li>Toilet exhaust fan provision</li>
+        </ul>
+      </article>
+
+      <article class="spec-card">
+        <h3>Paint & Finishing</h3>
+        <ul>
+          <li>Oil-bound distemper paint internally</li>
+          <li>Acrylic / cement paint externally</li>
+          <li>Designer terrace railings</li>
+          <li>Powder-coated railing finish</li>
+        </ul>
+      </article>
+
+      <article class="spec-card">
+        <h3>Electrical & Security</h3>
+        <ul>
+          <li>Conveniently placed light and power points</li>
+          <li>Master bedroom AC point provision</li>
+          <li>Inverter provision for each flat</li>
+          <li>Colour video door phone</li>
+          <li>Common-area generator / power backup provision</li>
+        </ul>
+      </article>
+
+    </div>
+
+    <p class="note" style="color:#c6c1b7">
+       
+    </p>
+
+  </div>
+</section>
+
+<!-- FLOOR PLANS -->
+<section class="section" id="floorplans">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">PLAN YOUR SPACE</div>
+      <h2>Floor <span class="gold">Plans</span></h2>
+      <p>
+        तुमच्या गरजेनुसार फ्लॅटचा आराखडा पाहा.
+        मंजूर Floor Plan आणि अचूक Carpet Area विक्री टीमकडून घ्या.
+      </p>
+    </div>
+
+    <div class="plan-grid">
+
+      <article class="plan-card">
+        <img src="2bhk.png"
+             alt="Parijaat Society 1 BHK floor plan"
+             loading="lazy">
+        <h3>1 BHK Apartment</h3>
+        <p> </p>
+      </article>
+
+      <article class="plan-card">
+        <img src="1bhk.png"
+             alt="Parijaat Society 2 BHK floor plan"
+             loading="lazy">
+        <h3>2 BHK Apartment</h3>
+        <p> </p>
+      </article>
+
+      <article class="plan-card">
+        <img src="1st floor.png"
+             alt="Parijaat Society first floor plan"
+             loading="lazy">
+        <h3>1st Floor Plan</h3>
+        <p> </p>
+      </article>
+
+      <article class="plan-card">
+        <img src="2ndto13 floor.png"
+             alt="Parijaat Society upper floor plan"
+             loading="lazy">
+        <h3>Upper Floor Plans</h3>
+        <p> .</p>
+      </article>
+
+    </div>
+
+    <p class="note">
+       
+    </p>
+
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="section section-cream" id="location">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">LOCATION ADVANTAGE</div>
+      <h2>Connected to <span class="gold">Everyday Life</span></h2>
+      <p>
+        आंबेगाव, पुणे येथील प्रकल्प आणि आसपासच्या महत्त्वाच्या
+        ठिकाणांची माहिती.
+      </p>
+    </div>
+
+    <div class="location-grid">
+
+      <div class="location-info">
+        <h3>Parijaat Society</h3>
+
+        <p>📍 Ambegaon, Pune, Maharashtra</p>
+        <p>🛣️ Pune–Bengaluru Highway</p>
+        <p>🛕 BAPS Swaminarayan Mandir</p>
+        <p>🌊 Jambhulwadi Lake</p>
+        <p>🏥 Navale Hospital</p>
+        <p>🏥 Shwas Multispeciality Hospital</p>
+        <p>🎓 Sinhgad College / Institutes</p>
+        <p>🛍️ Adhiruchi Mall & Multiplex</p>
+
+        <p class="small">
+           
+        </p>
+
+        <a class="btn btn-dark"
+           href=" "
+           target="_blank" rel="noopener">
+          Open Google Maps
+        </a>
+      </div>
+
+      <!-- अचूक प्रकल्पाचा पिन तपासूनच हा Map वापरा -->
+      <iframe
+        class="location-map"
+        title="Map search for Parijaat Society, Ambegaon"
+        src=" "
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+    </div>
+
+    <div class="connectivity-grid">
+
+      <div class="connectivity">
+        <strong>Pune–Bengaluru Highway</strong>
+        <span>महामार्गाची कनेक्टिव्हिटी</span>
+      </div>
+
+      <div class="connectivity">
+        <strong>Swaminarayan Mandir</strong>
+        <span>जवळील धार्मिक स्थळ</span>
+      </div>
+
+      <div class="connectivity">
+        <strong>Jambhulwadi Lake</strong>
+        <span>जवळील निसर्गरम्य ठिकाण</span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+
+    <div class="section-heading">
+      <div class="eyebrow">HELP & INFORMATION</div>
+      <h2>Frequently Asked <span class="gold">Questions</span></h2>
+      <p>घर पाहण्यापूर्वी मनातील महत्त्वाचे प्रश्न समजून घ्या.</p>
+    </div>
+
+    <div class="faq-list">
+
+      <details class="faq-item">
+        <summary>Parijaat Society कुठे आहे?</summary>
+        <p>
+          Parijaat Society हा आंबेगाव, पुणे येथील निवासी प्रकल्प आहे.
+          प्रत्यक्ष भेटीपूर्वी विक्री टीमकडून अचूक पत्ता आणि लोकेशन घ्या.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>कोणत्या प्रकारचे फ्लॅट उपलब्ध आहेत?</summary>
+        <p>
+          दिलेल्या माहितीनुसार 1 BHK आणि 2 BHK घरांचे पर्याय आहेत.
+          सध्याची उपलब्धता विक्री टीमकडून निश्चित करा.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>फ्लॅटची किंमत किती आहे?</summary>
+        <p>
+          आधी दिलेल्या माहितीनुसार 1 BHK ची किंमत ₹44 लाख आणि
+          2 BHK ची किंमत ₹58–65 लाख आहे. अंतिम किंमत, कर आणि
+          इतर शुल्कांची खात्री अधिकृत विक्री टीमकडून करा.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>Site Visit कशी बुक करायची?</summary>
+        <p>
+          खालील Enquiry Form भरा किंवा WhatsApp / Call बटणावर
+          क्लिक करून विक्री टीमशी संपर्क करा.
+        </p>
+      </details>
+
+      <details class="faq-item">
+        <summary>RERA Registration कसे तपासायचे?</summary>
+        <p>
+          दिलेल्या माहितीत RERA क्रमांक P52100053801 आहे.
+          खरेदीपूर्वी अधिकृत MahaRERA वेबसाइटवर क्रमांक आणि
+          प्रकल्पाची नोंदणी स्थिती तपासा.
+        </p>
+        <a href="https://maharera.maharashtra.gov.in/"
+           target="_blank" rel="noopener">
+          Visit Official MahaRERA Website
+        </a>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT / ENQUIRY -->
+<section class="section contact-section" id="contact">
+  <div class="container">
+
+    <div class="eyebrow">YOUR DREAM HOME STARTS HERE</div>
+
+    <h2>
+      Ready to Visit<br>
+      <span class="gold">Parijaat Society?</span>
+    </h2>
+
+    <p>
+      तुमच्या पसंतीचा फ्लॅट प्रत्यक्ष पाहा.
+      किंमत, उपलब्धता आणि Site Visit साठी आमच्याशी संपर्क करा.
+    </p>
+
+    <div class="contact-actions">
+      <a href="#" id="mainWhatsapp" class="btn btn-green">
+        WhatsApp Enquiry
+      </a>
+
+      <a href="#" id="mainCall" class="btn btn-outline">
+        Call Now
+      </a>
+    </div>
+
+    <!--
+      हा Form थेट WhatsApp संदेश तयार करतो.
+      तो ग्राहकांची माहिती Database मध्ये सेव्ह करत नाही.
+    -->
+    <form class="enquiry-form" id="enquiryForm">
+
+      <h3>Book Your Site Visit</h3>
+
+      <div class="form-grid">
+
+        <div class="form-field">
+          <label for="customerName">Full Name / पूर्ण नाव</label>
+          <input id="customerName" name="customerName"
+                 type="text" placeholder="Enter your name"
+                 required>
+        </div>
+
+        <div class="form-field">
+          <label for="customerPhone">Mobile Number / मोबाईल नंबर</label>
+          <input id="customerPhone" name="customerPhone"
+                 type="tel" inputmode="numeric"
+                 pattern="[0-9]{10}"
+                 maxlength="10"
+                 placeholder="10-digit mobile number"
+                 required>
+        </div>
+
+        <div class="form-field">
+          <label for="flatType">Interested In / फ्लॅटचा प्रकार</label>
+          <select id="flatType" name="flatType" required>
+            <option value="">Select Flat Type</option>
+            <option value="1 BHK">1 BHK</option>
+            <option value="2 BHK">2 BHK</option>
+            <option value="Both 1 BHK and 2 BHK">Both 1 BHK & 2 BHK</option>
+          </select>
+        </div>
+
+        <div class="form-field">
+          <label for="visitDate">Preferred Visit Date</label>
+          <input id="visitDate" name="visitDate" type="date">
+        </div>
+
+        <div class="form-field full">
+          <label for="customerMessage">Message / तुमचा प्रश्न</label>
+          <textarea id="customerMessage" name="customerMessage"
+                    placeholder="Any specific enquiry?"></textarea>
+        </div>
+
+        <div class="form-field full">
+          <button class="btn" type="submit">
+            Send Enquiry on WhatsApp
+          </button>
+        </div>
+
+      </div>
+
+      <p class="form-note">
+        Submit केल्यावर WhatsApp संदेश तयार होईल.
+        ग्राहकाने स्वतः संदेश पाठवणे आवश्यक आहे.
+      </p>
+
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <div>
+        <h3>PARIJAAT SOCIETY</h3>
+        <p>The Homely Paradise</p>
+        <p>Ambegaon, Pune, Maharashtra</p>
+        <p>तुमच्या स्वप्नातील घरासाठी एक नवी सुरुवात.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#about">About the Project</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#floorplans">Floor Plans</a>
+        <a href="#location">Location</a>
+      </div>
+
+      <div>
+        <h3>Contact & Project Details</h3>
+        <p>Ambegaon, Pune</p>
+        <p>RERA No. P52100053801*</p>
+        <a href="https://maharera.maharashtra.gov.in/"
+           target="_blank" rel="noopener">
+          Verify on MahaRERA
+        </a>
+      </div>
+
+    </div>
+
+    <div class="disclaimer">
+      <strong> </strong>
+      
+      <br><br>
+
+       
+      <br><br>
+
+      © <span id="year"></span> Parijaat Society. All rights reserved.
+    </div>
+
+  </div>
+</footer>
+
+<!-- MOBILE BOTTOM BAR -->
+<div class="mobile-bar">
+  <a href="#" id="mobileWhatsapp">WhatsApp</a>
+  <a href="#" id="mobileCall">Call Now</a>
+  <a href="#contact">Site Visit</a>
+</div>
+
+<!-- IMAGE LIGHTBOX -->
+<div class="lightbox" id="lightbox"
+     role="dialog" aria-modal="true" aria-label="Project image">
+
+  <button class="lightbox-close" id="lightboxClose"
+          aria-label="Close image">×</button>
+
+  <img id="lightboxImage" src="" alt="Project image enlarged">
+</div>
+
+<script>
+/*
+  IMPORTANT:
+  Replace the sample numbers below with your real contact numbers.
+
+  WhatsApp: country code + number, digits only.
+  Example: 919876543210
+
+  Phone: include +91.
+  Example: +919876543210
+*/
+
+const CONTACT = {
+  whatsapp: "7720013238",
+  phone: "+917720013238"
+};
+
+const menuToggle = document.getElementById("menuToggle");
+const navLinks = document.getElementById("navLinks");
+
+// Mobile navigation
+menuToggle.addEventListener("click", () => {
+  const open = navLinks.classList.toggle("active");
+  menuToggle.setAttribute("aria-expanded", String(open));
+  menuToggle.textContent = open ? "✕ CLOSE" : "☰ MENU";
+});
+
+navLinks.querySelectorAll("a").forEach(link => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("active");
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.textContent = "☰ MENU";
+  });
+});
+
+// Contact link setup
+function validWhatsApp() {
+  return /^\d{10,15}$/.test(CONTACT.whatsapp);
+}
+
+function validPhone() {
+  return /^\+?\d{10,15}$/.test(CONTACT.phone);
+}
+
+function whatsappURL(message) {
+  if (!validWhatsApp()) return null;
+
+  return "https://wa.me/" + CONTACT.whatsapp +
+         "?text=" + encodeURIComponent(message);
+}
+
+function setupWhatsAppButton(id, message) {
+  const element = document.getElementById(id);
+  if (!element) return;
+
+  const url = whatsappURL(message);
+
+  if (url) {
+    element.href = url;
+    element.target = "_blank";
+    element.rel = "noopener";
+  } else {
+    element.href = "#contact";
+    element.addEventListener("click", event => {
+      event.preventDefault();
+      alert(
+        "index.html मधील CONTACT मध्ये खरा WhatsApp नंबर टाका."
+      );
+      document.getElementById("contact").scrollIntoView();
+    });
+  }
+}
+
+function setupCallButton(id) {
+  const element = document.getElementById(id);
+  if (!element) return;
+
+  if (validPhone()) {
+    element.href = "tel:" + CONTACT.phone;
+  } else {
+    element.href = "#contact";
+    element.addEventListener("click", event => {
+      event.preventDefault();
+      alert(
+        "index.html मधील CONTACT मध्ये खरा फोन नंबर टाका."
+      );
+      document.getElementById("contact").scrollIntoView();
+    });
+  }
+}
+
+const generalMessage =
+  "Hello, I am interested in Parijaat Society, Ambegaon, Pune. " +
+  "मला फ्लॅटची किंमत, उपलब्धता आणि Site Visit ची माहिती हवी आहे.";
+
+setupWhatsAppButton("mainWhatsapp", generalMessage);
+setupWhatsAppButton("mobileWhatsapp", generalMessage);
+setupCallButton("mainCall");
+setupCallButton("mobileCall");
+
+// Preselect a flat type when a pricing button is clicked
+document.querySelectorAll("[data-flat]").forEach(button => {
+  button.addEventListener("click", () => {
+    document.getElementById("flatType").value =
+      button.dataset.flat;
+  });
+});
+
+// Enquiry form: opens WhatsApp with customer details
+document.getElementById("enquiryForm").addEventListener(
+  "submit",
+  function(event) {
+    event.preventDefault();
+
+    if (!this.reportValidity()) return;
+
+    if (!validWhatsApp()) {
+      alert(
+        "कृपया प्रथम CONTACT मध्ये खरा WhatsApp नंबर टाका."
+      );
+      return;
+    }
+
+    const name =
+      document.getElementById("customerName").value.trim();
+
+    const phone =
+      document.getElementById("customerPhone").value.trim();
+
+    const flat =
+      document.getElementById("flatType").value;
+
+    const date =
+      document.getElementById("visitDate").value || "Not specified";
+
+    const message =
+      document.getElementById("customerMessage").value.trim()
+      || "No additional message";
+
+    const text =
+      "PARIJAAT SOCIETY - SITE VISIT ENQUIRY\n\n" +
+      "Name: " + name + "\n" +
+      "Customer Mobile: " + phone + "\n" +
+      "Interested In: " + flat + "\n" +
+      "Preferred Visit Date: " + date + "\n" +
+      "Message: " + message + "\n\n" +
+      "Please contact me regarding the property.";
+
+    const url = whatsappURL(text);
+
+    if (url) {
+      window.open(url, "_blank", "noopener");
+    }
+  }
+);
+
+// Gallery lightbox
+const lightbox = document.getElementById("lightbox");
+const lightboxImage = document.getElementById("lightboxImage");
+const lightboxClose = document.getElementById("lightboxClose");
+
+document.querySelectorAll(".gallery-card").forEach(card => {
+  card.addEventListener("click", () => {
+    lightboxImage.src = card.dataset.full;
+    lightboxImage.alt = card.querySelector("img").alt;
+    lightbox.classList.add("open");
+    lightboxClose.focus();
+  });
+});
+
+function closeLightbox() {
+  lightbox.classList.remove("open");
+  lightboxImage.src = "";
+}
+
+lightboxClose.addEventListener("click", closeLightbox);
+
+lightbox.addEventListener("click", event => {
+  if (event.target === lightbox) closeLightbox();
+});
+
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape") closeLightbox();
+});
+
+// Current year
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+</script>
+
+</body>
+</html>
